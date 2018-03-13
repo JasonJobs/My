@@ -1,0 +1,9 @@
+F:\回收箱\SeeYou\Models\bin\Debug\Models.dll
+F:\回收箱\SeeYou\Models\bin\Debug\Models.pdb
+F:\回收箱\SeeYou\Models\obj\Debug\Models.dll
+F:\回收箱\SeeYou\Models\obj\Debug\Models.pdb
+F:\Project\SeeYou\Models\bin\Debug\Models.dll
+F:\Project\SeeYou\Models\bin\Debug\Models.pdb
+F:\Project\SeeYou\Models\obj\Debug\Models.dll
+F:\Project\SeeYou\Models\obj\Debug\Models.pdb
+F:\Project\SeeYou\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache

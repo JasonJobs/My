@@ -1,0 +1,14 @@
+F:\回收箱\SeeYou\DAL\bin\Debug\DAL.dll
+F:\回收箱\SeeYou\DAL\bin\Debug\DAL.pdb
+F:\回收箱\SeeYou\DAL\bin\Debug\Models.dll
+F:\回收箱\SeeYou\DAL\bin\Debug\Models.pdb
+F:\回收箱\SeeYou\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\回收箱\SeeYou\DAL\obj\Debug\DAL.dll
+F:\回收箱\SeeYou\DAL\obj\Debug\DAL.pdb
+F:\Project\SeeYou\DAL\bin\Debug\DAL.dll
+F:\Project\SeeYou\DAL\bin\Debug\DAL.pdb
+F:\Project\SeeYou\DAL\bin\Debug\Models.dll
+F:\Project\SeeYou\DAL\bin\Debug\Models.pdb
+F:\Project\SeeYou\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Project\SeeYou\DAL\obj\Debug\DAL.dll
+F:\Project\SeeYou\DAL\obj\Debug\DAL.pdb

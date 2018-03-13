@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>我的官网</title>
+    <link href="css/allStyle.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="../img/MY.png" />
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+</head>
+<body style="background:url(/img/bg.png) no-repeat;background-size:cover;overflow-x:hidden;">
+    <!--导航框-->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--小型设备的导航-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--图标-->
+                <a href="MainPage.html" class="navbar-brand">
+                    <img src="img/MY.png" class="img-responsive" style="height:100%;" />
+                </a>
+            </div>
+            <!--选项框-->
+            <div class="collapse navbar-collapse text-center" id="example-navbar-collapse">
+                <ul class="nav navbar-nav" style="color:white;font-size:larger">
+                    <li class="active"><a href="/MainPage.html">首页</a></li>
+                    <li class="dropdown-toggle"><a data-toggle="dropdown" href="#">产品<span class="caret"></span></a>
+                    <ul class="dropdown-menu text-center">
+                        <li><a href="SeeYouPage.html">SeeYou</a></li>
+                        <li><a href="SmartPage.html">Smart</a></li>
+                        <li><a href="SearchPage.html">Search</a></li>
+                        <li><a href="IUPage.html">IU</a></li>
+                        <li class="disabled"><a href="#">Take(待续)</a></li>
+                        <li class="disabled"><a href="#">Mobile Office(待续)</a></li>
+                        </ul></li>
+                    <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">服务<span class="caret"></span></a>
+                    <ul class="dropdown-menu text-center">
+                        <li><a href="#">软件下载</a></li>
+                        <li><a href="Register.html" target="_blank">注册账号</a></li>
+                        <li><a href="License.html">软件许可协议</a></li>
+                        <li><a href="#">服务问题解答</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">反馈</a></li>
+                    <li><a style="color:blue" href="#"><b>安全中心</b></a></li>
+                    <li><a href="#">客服</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--模态框（Modal）-->
+        <!--注册框（Register）-->
+        <div class="modal fade" id="myRegister" tabindex="-1" role="dialog" aria-labelledby="myRegisterLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myRegisterLabel">注册</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="dialog" action="Mainpage.ashx" method="post">
+                            <div class="form-group">
+                                <label for="userName" class="col-sm-2 control-label">用户名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="userName" placeholder="敢问阁下尊姓大名..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="userpwd" class="col-sm-2 control-label">密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="userpwd" placeholder="口令..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="userrepwd" class="col-sm-2 control-label">重复密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="userrepwd" placeholder="重复口令..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="userrealname" class="col-sm-2 control-label">姓名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="userrealname" placeholder="真实姓名..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="IDCard" class="col-sm-2 control-label">身份证号</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="IDCard" placeholder="身份证号码..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="userAddress" class="col-sm-2 control-label">地址</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="userAddress" class="form-control" placeholder="地址..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="userPhone" class="col-sm-2 control-label">手机号码</label>
+                                <div class="col-sm-10">
+                                    <input type="number" name="userPhone" class="form-control" placeholder="手机号码..." />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">注册</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--登录框（Login）-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">登录</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="dialog" action="Mainpage.ashx" method="post">
+                            <div class="form-group">
+                                <label for="userName" class="col-sm-2 control-label">用户名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="luserName" placeholder="敢问阁下尊姓大名..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-sm-2 control-label">密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="lpassword" placeholder="口令..." />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" />Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button id="uidpwd" type="submit" class="btn btn-default ">登录</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary">忘记密码</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</nav>
+    <!--轮播框-->
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="SearchPage.html"><img src="img/slider-1.jpg" alt="First slide" style="width:100%;" /></a>
+                </div>
+                <div class="item">
+                    <a href="SmartPage.html">
+                        <img src="img/slider-2.jpg" alt="Second slide" style="width:100%;" /></a>
+                </div>
+                <div class="item">
+                    <a href="SeeYouPage.html">
+                        <img src="img/slider-3.jpg" alt="Third slide" style="width:100%;" /></a>
+                </div>
+                <div class="item">
+                    <a href="IUPage.html">
+                        <img src="img/slider-4.jpg" alt="Third slide" style="width:100%;" />
+                    </a>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+               data-slide="prev">
+                &lsaquo;
+            </a>
+            <a class="carousel-control right" href="#myCarousel"
+               data-slide="next">
+                &rsaquo;
+            </a>
+        </div>
+    </div>
+    <!--登录注册框-->
+    <!--<div name="logreg" class="text-center ">
+        <!--<!--登录按钮-->
+        <!--<button type="button" name="login" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top:10px;">Log in</button>-->
+        <!--注册按钮-->
+        <!--<button type="button" name="register" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myRegister" style="margin-top:10px;margin-left:20px">Register</button>-->
+    <!--</div>-->
+        <!--推荐框-->
+    <div class="row" style="margin-top:15px">
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="/img/slider-1.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>SEARCH</h3>
+                    <p>强大的搜索引擎</p>
+                    <p>
+                        <a href="SearchPage.html" class="btn btn-primary" role="button">
+                            更多
+                        </a>
+                        <a href="#" class="btn btn-default" role="button">
+                            下载
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="/img/slider-3.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>SEEYOU</h3>
+                    <p>用心交友的真实朋友圈</p>
+                    <p>
+                        <a href="SeeYouPage.html" class="btn btn-primary" role="button">
+                            更多
+                        </a>
+                        <a href="#" class="btn btn-default" role="button">
+                            下载
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="/img/slider-2.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>SMART</h3>
+                    <p>你的智能助手</p>
+                    <p>
+                        <a href="SmartPage.html" class="btn btn-primary" role="button">
+                            更多
+                        </a>
+                        <a href="#" class="btn btn-default" role="button">
+                            下载
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="/img/slider-4.jpg"
+                     alt="通用的占位符缩略图">
+                <div class="caption">
+                    <h3>IU</h3>
+                    <p>百科全书</p>
+                    <p>
+                        <a href="IUPage.html" class="btn btn-primary" role="button">
+                            更多
+                        </a>
+                        <a href="#" class="btn btn-default" role="button">
+                            下载
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--结尾框-->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="jumbotron text-center">
+                <h4>我的官网</h4>
+                <small>MY OFFICIAL WEBSITE</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+</script>

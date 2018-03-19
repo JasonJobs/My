@@ -11,7 +11,7 @@
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
 	<meta charset="utf-8" />
 </head>
-<body style="background:url(/img/bg.png) no-repeat;background-size:cover;overflow-x:hidden;">
+<body style="background:url(/img/bg.png) no-repeat;background-size:cover;overflow-x:hidden;padding-top:50px;">
     <!--导航框-->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -33,32 +33,35 @@
             <div class="collapse navbar-collapse text-center" id="example-navbar-collapse">
                 <ul class="nav navbar-nav" style="color:white;font-size:larger">
                     <li class="active"><a href="/MainPage.html">首页</a></li>
-                    <li class="dropdown-toggle"><a data-toggle="dropdown" href="#">产品<span class="caret"></span></a>
-                    <ul class="dropdown-menu text-center">
-                        <li><a href="SeeYouPage.html">SeeYou</a></li>
-                        <li><a href="SmartPage.html">Smart</a></li>
-                        <li><a href="SearchPage.html">Search</a></li>
-                        <li><a href="IUPage.html">IU</a></li>
-                        <li class="disabled"><a href="#">Take(待续)</a></li>
-                        <li class="disabled"><a href="#">Mobile Office(待续)</a></li>
-                        </ul></li>
-                    <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">服务<span class="caret"></span></a>
-                    <ul class="dropdown-menu text-center">
-                        <li><a href="#">软件下载</a></li>
-                        <li><a href="Register.html" target="_blank">注册账号</a></li>
-                        <li><a href="License.html">软件许可协议</a></li>
-                        <li><a href="#">服务问题解答</a></li>
-                    </ul>
+                    <li class="dropdown-toggle">
+                        <a data-toggle="dropdown" href="#">产品<span class="caret"></span></a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a href="SeeYouPage.html">SeeYou</a></li>
+                            <li><a href="SmartPage.html">Smart</a></li>
+                            <li><a href="SearchPage.html">Search</a></li>
+                            <li><a href="IUPage.html">IU</a></li>
+                            <li class="disabled"><a href="#">Take(待续)</a></li>
+                            <li class="disabled"><a href="#">Mobile Office(待续)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">服务<span class="caret"></span></a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a href="#">软件下载</a></li>
+                            <li><a href="Register.html" target="_blank">注册账号</a></li>
+                            <li><a href="License.html">软件许可协议</a></li>
+                            <li><a href="#">服务问题解答</a></li>
+                        </ul>
                     </li>
                     <li><a href="#">社区</a></li>
                     <li><a href="#">反馈</a></li>
                     <li><a style="color:blue" href="#"><b>安全中心</b></a></li>
                     <li><a href="#">客服</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right"> 
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li> 
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> 
-        </ul> 
+                <div class="pull-right">
+                    <button type="button" class="btn btn-primary navbar-btn" data-toggle="model" data-target="#myRegister">注册</button>
+                    <button type="button" class="btn btn-default navbar-btn" data-toggle="model" data-target="#myModal">登录</button>
+                </div>
             </div>
         </div>
         <!--模态框（Modal）-->

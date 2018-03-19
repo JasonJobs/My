@@ -12,3 +12,10 @@ F:\Project\SeeYou\DAL\bin\Debug\Models.pdb
 F:\Project\SeeYou\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 F:\Project\SeeYou\DAL\obj\Debug\DAL.dll
 F:\Project\SeeYou\DAL\obj\Debug\DAL.pdb
+F:\Project\my\DAL\bin\Debug\DAL.dll
+F:\Project\my\DAL\bin\Debug\DAL.pdb
+F:\Project\my\DAL\bin\Debug\Models.dll
+F:\Project\my\DAL\bin\Debug\Models.pdb
+F:\Project\my\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Project\my\DAL\obj\Debug\DAL.dll
+F:\Project\my\DAL\obj\Debug\DAL.pdb

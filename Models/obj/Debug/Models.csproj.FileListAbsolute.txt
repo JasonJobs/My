@@ -7,3 +7,7 @@ F:\Project\SeeYou\Models\bin\Debug\Models.pdb
 F:\Project\SeeYou\Models\obj\Debug\Models.dll
 F:\Project\SeeYou\Models\obj\Debug\Models.pdb
 F:\Project\SeeYou\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+F:\Project\my\Models\bin\Debug\Models.dll
+F:\Project\my\Models\bin\Debug\Models.pdb
+F:\Project\my\Models\obj\Debug\Models.dll
+F:\Project\my\Models\obj\Debug\Models.pdb

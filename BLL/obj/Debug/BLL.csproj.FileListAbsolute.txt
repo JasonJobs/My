@@ -16,3 +16,12 @@ F:\Project\SeeYou\BLL\bin\Debug\Models.pdb
 F:\Project\SeeYou\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 F:\Project\SeeYou\BLL\obj\Debug\BLL.dll
 F:\Project\SeeYou\BLL\obj\Debug\BLL.pdb
+F:\Project\my\BLL\bin\Debug\BLL.dll
+F:\Project\my\BLL\bin\Debug\BLL.pdb
+F:\Project\my\BLL\bin\Debug\DAL.dll
+F:\Project\my\BLL\bin\Debug\Models.dll
+F:\Project\my\BLL\bin\Debug\DAL.pdb
+F:\Project\my\BLL\bin\Debug\Models.pdb
+F:\Project\my\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\Project\my\BLL\obj\Debug\BLL.dll
+F:\Project\my\BLL\obj\Debug\BLL.pdb

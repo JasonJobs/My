@@ -1,0 +1,13 @@
+﻿body {
+    background:url(../img/bg.jpg) no-repeat;
+}
+/*登陆界面*/
+.loginDiv{
+    width:80%;
+    
+    border:solid 1px;
+}
+/*居中显示*/
+.centerForm{
+    text-align:center;
+}
